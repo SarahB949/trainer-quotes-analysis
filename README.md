@@ -1,5 +1,5 @@
 # trainer-quotes-analysis
-# 💪 Trainer Quotes — Data Pipeline & Analysis
+# 📚🫶🏻 Trainer Quotes — Data Pipeline & Analysis
 
 A Python data pipeline that automatically collects, filters, and analyses inspirational quotes tailored specifically for trainers and coaches. Built in Jupyter Notebook using a rule-based classification algorithm.
 
