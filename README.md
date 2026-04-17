@@ -7,7 +7,7 @@ A Python data pipeline that automatically collects, filters, and analyses inspir
 
 ## What it does
 
-This project scrapes quotes from a website, runs them through a custom-built classifier to keep only quotes relevant to **empowerment, learning, and growth**, and produces a series of visualisations to analyse the results.
+This project scrapes quotes from a website, runs them through a custom-built classifier to keep only quotes relevant to empowerment, learning, and growth, and produces a series of visualisations to analyse the results.
 
 The end output is a curated, ready-to-use quotes dataset exported as CSV — including a shortlist of punchy quotes under 15 words, ideal for social media captions, client check-ins, or session openers.
 
@@ -15,13 +15,13 @@ The end output is a curated, ready-to-use quotes dataset exported as CSV — inc
 
 ## How it works
 
-The pipeline follows a classic **ETL pattern**:
+The pipeline follows a classic ETL pattern:
 
-- **Extract** — collects quotes automatically across all pages of the source website using `requests` and `BeautifulSoup`
-- **Transform** — passes each quote through a rule-based binary classifier that checks for relevant tags, empowerment keywords, and filters out anything too generic
-- **Load** — exports the filtered, analysis-ready dataset to CSV
+- Extract — collects quotes automatically across all pages of the source website using `requests` and `BeautifulSoup`
+- Transform — passes each quote through a rule-based binary classifier that checks for relevant tags, empowerment keywords, and filters out anything too generic
+- Load — exports the filtered, analysis-ready dataset to CSV
 
-The classifier is **deterministic** — every decision is traceable back to an explicit rule, making it fully transparent and easy to adjust.
+The classifier is deterministic — every decision is traceable back to an explicit rule, making it fully transparent and easy to adjust.
 
 ---
 
